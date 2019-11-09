@@ -1,8 +1,15 @@
 [package]
 name = "safebox"
+description = "Lower the risk of leaving secret around in memory"
 version = "0.1.0"
 authors = ["François-Xavier Bourlet <bombela@gmail.com>"]
 edition = "2018"
+license = "MIT"
+categories = ["cryptography"]
+keywords = ["secret", "memzero"]
+repository = "https://github.com/bombela/safebox"
+documentation = "https://docs.rs/safebox"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

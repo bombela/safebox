@@ -1,7 +1,7 @@
 #![allow(unused_variables)]
 #![allow(dead_code)]
 
-//! The SafeBox guarantee that no trace of its content lingers in RAM after it is dropped.
+//! The SafeBox lowers the risk of leaving copies of its content linger in RAM.
 //!
 //! To zero a piece RAM requires a bit more than calling memset(0). There is few layers of
 //! optimizations and abstractions working against us:
